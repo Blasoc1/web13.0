@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>ThaisWebsite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Pacifico&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="containerThais">
+      <h2 id="thaison">Thais Angeles Puerta Baixauli</h2>
+    </div>
+    <main>
+      <h3>My Website</h3>
+      
+      <!-- TODO: Agregar enlace a Facebook -->
+
+      <p><a href="https://www.facebook.com/Thais1994leo" target="_blank" rel="noopener noreferrer">Haz click aqui para ver mi Facebook.</a></p>
+      <div class="containerIthais">
+        <img src="imagenes/thaisbaby.jpg" class="Ithais" alt="Mujer embarazada en una terraza">
+      </div>
+      <hr>
+
+      <h3><em>Sobre mi</em></h3>
+
+      <div class="container">
+        <p>A mi me gusta:</p>
+        <ul id="megusta">
+          <li>Las nenas</li>
+          <li>Los perritos</li>
+          <li>Las redes sociales</li>
+        </ul>
+
+        <img src="imagenes/Rayito.jpg" class="Irayito" alt="Perrito peludo">
+      
+        <p>Mi perrito Rayo</p>
+        <ol id="megusta">
+          <li>Su novia es <strong>Minnie</strong></li>
+          <li>No le gustan jugar con otros perritos</li>
+          <li>Le gusta mucho el pollo</li>
+        </ol>
+      </div>
+
+      <img src="imagenes/Minnie.jpg" class="Iminnie" alt="perrita pequeña">
+      
+      <!-- Botones de radio -->
+
+      <form action="/enviar-respuesta">
+        <label for="perro">
+          <input id="perro" type="radio" value="perro" name="perro-gato" checked>Perro
+        </label>
+        <br>
+        <label for="gato">
+          <input id="gato" type="radio" value="gato" name="perro-gato">Gato
+        </label>
+          <br>
+        
+        <!-- Casillas de verificacion-->
+
+        <label for="perezoso">
+          <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+        <br>
+        <label for="jugeton">
+          <input id="jugeton" type="checkbox" value="jugeton" name="personalidad">Jugeton
+        </label>
+        <br>
+        <label for="comilon">
+          <input id="comilon" type="checkbox" value="comilon" name="personalidad" checked>Comilon
+        </label>
+        <br>
+
+        <!-- Texto y boton enviar -->
+        <input type="text" placeholder="URL de la foto de tu mascota" required><br>
+        <button type="submit">Enviar</button>
+      </form>
+      
+    </main>
+    <footer>
+      <p><small>derechos de autor - blasoc</small></p>
+    </footer>
+  </body>
+</html>
